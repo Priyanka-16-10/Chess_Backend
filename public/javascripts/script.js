@@ -69,6 +69,9 @@ const renderBoard = () => {
     } else{
         boardElement.classList.remove("flipped");
     }
+    if(true){
+        console.log ("hii")
+    }
 };
 
 const handleMove = (source, target) => {
